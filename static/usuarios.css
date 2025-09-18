@@ -1,0 +1,46 @@
+/* Estilo general para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la tabla */
+thead tr {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+/* Celdas */
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Filas alternas para mejor lectura */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover para filas */
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
